@@ -1,0 +1,13 @@
+﻿@model List<StellerAcunMedyaAkademiPortfolio.Models.TblSocialMedia>
+
+
+<div class="socials mt-4">
+    @foreach (var item in Model)
+    {
+        <a class="social-item" href="@item.Url" target="_blank"><i class="@item.Icon"></i></a>
+    }
+
+    @*<a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+    <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+    <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>*@
+</div>

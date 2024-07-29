@@ -1,0 +1,25 @@
+﻿@model StellerAcunMedyaAkademiPortfolio.Models.TblProject
+@{
+    ViewBag.Title = "AddProject";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Add Project Page</h2>
+
+<form method="post">
+    <label>Image Url</label>
+    @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+    <br />
+    <label>Project Name</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <label>Description</label>
+    @Html.TextAreaFor(x => x.Description,5,1, new { @class = "form-control" })
+    <br />
+    <label>GitHub Url</label>
+    @Html.TextBoxFor(x => x.GitHubUrl, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-primary">Save</button>
+
+</form>

@@ -1,0 +1,20 @@
+﻿@model StellerAcunMedyaAkademiPortfolio.Models.TblService
+@{
+    ViewBag.Title = "UpdateService";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Update Service Page</h3>
+
+<form method="post">
+    @Html.HiddenFor(x=>x.ServiceId)
+    <label>Service Name</label>
+    @Html.TextBoxFor(x => x.ServiceName, new { @class = "form-control" })
+    <br />
+    <label>Service Icon</label>
+    @Html.TextBoxFor(x => x.ServiceIconUrl, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-primary">Update</button>
+
+</form>
+

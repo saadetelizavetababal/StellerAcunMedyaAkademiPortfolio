@@ -1,0 +1,41 @@
+﻿@model List<StellerAcunMedyaAkademiPortfolio.Models.TblSkill>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+    int count = 0;
+}
+
+<h3>Skills</h3>
+
+
+<table class="table table-bordered table-hover">
+    <tr>
+        <th>#</th>
+        <th>Skill Name</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Value</th>
+        <th>Delete</th>
+        <th>Update</th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <th>@count</th>
+            <td>@item.SkillName</td>
+            <td>@item.Title</td>
+            <td>@item.Description</td>
+            <td>@item.Value</td>
+
+            <td><a href="/Skill/DeleteSkill/@item.SkillId" class="btn btn-outline-danger">Delete</a></td>
+            <td><a href="/Skill/UpdateSkill/@item.SkillId" class="btn btn-outline-info">Update</a></td>
+        </tr>
+
+    }
+</table>
+<br />
+
+<a href="/Skill/AddSkill" class="btn btn-outline-primary">Add New Skill</a>

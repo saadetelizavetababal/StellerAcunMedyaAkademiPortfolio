@@ -1,0 +1,28 @@
+﻿@model StellerAcunMedyaAkademiPortfolio.Models.TblSkill
+@{
+    ViewBag.Title = "AddSkill";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Add Skill Page</h3>
+
+
+<form method="post">
+    <label>Skill Name</label>
+    @Html.TextBoxFor(x => x.SkillName, new { @class = "form-control" })
+    <br />
+    @*<label>Title</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <label>Description</label>
+    @Html.TextAreaFor(x => x.Description, 5, 1, new { @class = "form-control" })
+    <br />*@
+    <label>Value</label>
+    @Html.TextBoxFor(x => x.Value, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-primary">Save</button>
+
+</form>
+
+

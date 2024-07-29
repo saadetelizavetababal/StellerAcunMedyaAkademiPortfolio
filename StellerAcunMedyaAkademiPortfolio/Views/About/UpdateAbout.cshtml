@@ -1,0 +1,28 @@
+﻿@model StellerAcunMedyaAkademiPortfolio.Models.TblAbout
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Update About Page</h3>
+<br />
+
+<form method="post">
+
+    <input type="hidden" name="AboutId" value="@Model.AboutId" />
+    <label>Image Url</label>
+    <input type="text" name="ImageUrl" value="@Model.ImageUrl" class="form-control" />
+    <br />
+    <label>Name Surname</label>
+    <input type="text" name="NameSurname" value="@Model.NameSurname" class="form-control" />
+    <br />
+    <label>Title</label>
+    <input type="text" name="Title" value="@Model.Title" class="form-control" />
+    <br />
+    <label>Description</label>
+    <input type="text" name="Description" value="@Model.Description" class="form-control" />
+    <br />
+
+    <button class="btn btn-outline-primary">Update</button>
+</form>
+

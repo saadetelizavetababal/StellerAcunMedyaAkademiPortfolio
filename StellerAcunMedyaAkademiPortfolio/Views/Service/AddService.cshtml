@@ -1,0 +1,19 @@
+﻿@model StellerAcunMedyaAkademiPortfolio.Models.TblService
+@{
+    ViewBag.Title = "AddService";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Add Service Page</h3>
+
+<form method="post">
+    <label>Service Name</label>
+    @Html.TextBoxFor(x => x.ServiceName, new { @class = "form-control" })
+    <br />
+    <label>Service Icon</label>
+    @Html.TextBoxFor(x => x.ServiceIconUrl, new { @class = "form-control" })
+    <br />
+    <button class="btn btn-outline-primary">Save</button>
+
+</form>
+

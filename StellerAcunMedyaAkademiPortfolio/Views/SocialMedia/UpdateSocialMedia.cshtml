@@ -1,0 +1,30 @@
+﻿@model StellerAcunMedyaAkademiPortfolio.Models.TblSocialMedia
+@{
+    ViewBag.Title = "UpdateSocialMedia";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h3>Update Social Media Page</h3>
+
+<form method="post">
+    @Html.HiddenFor(x=>x.SocialMediaId)
+    <label>Social Media Name</label>
+    @Html.TextBoxFor(x => x.SocialMediaName, new { @class = "form-control" })
+    <br />
+    <label>Social Media Url</label>
+    @Html.TextBoxFor(x => x.Url, new { @class = "form-control" })
+    <br />
+    @*<label>Title</label>
+        @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+        <br />
+        <label>Description</label>
+        @Html.TextAreaFor(x => x.Description, 5, 1, new { @class = "form-control" })
+        <br />*@
+    <label>Icon</label>
+    @Html.TextBoxFor(x => x.Icon, new { @class = "form-control" })
+    <br />
+
+    <button class="btn btn-outline-primary">Update</button>
+
+</form>
+
