@@ -44,26 +44,26 @@ Here are some screenshots of the project:
 
 
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/mfszsmu.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi1.jpg)
 
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi2.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/9rbz50g.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi3.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/5pnhrqs.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi4.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/hbt75p9.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi5.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/d594knl.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi6.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/69v9mjm.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi7.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/6392ydq.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi8.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/ofmj1lp.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi9.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/4gkxypk.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi10.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/1mpuebg.jpg)
+![Ana Sayfa Görüntüsü](StellerAcunMedyaAkademi11.jpg)
 
-![Uygulama Ekran Görüntüsü](https://i.hizliresim.com/nd0yynp.jpg)
   
